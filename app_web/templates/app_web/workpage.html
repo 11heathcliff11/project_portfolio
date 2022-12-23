@@ -1,0 +1,86 @@
+{% extends "app_web/base.html"%}
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Work</title>
+</head>
+<body>
+	<h1>Workpage</h1><hr>
+
+	<div class='container'>
+
+		<div class='card'>
+			<div class='card-title fs-1 text-center pt-5 text-success'><h1 class="display-1"><strong>Work done so far.</strong></h1> <hr></div>
+			
+			<div class='row row-cols-1 row-cols-md-3 g-4 my-3 mx-5'>
+				<div class='col'><div class='card'>
+					<div class='card-body'>
+						<h3 class='card-title text-center'>Project E_com </h3><hr>
+						<a href='{% url "app_web:project_ecom" %}'>
+						<img src='{% static "images/workpage_img1.jpeg" %}' class='card-img' alt='img'></a><hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus. Congue eu consequat ac felis donec et odio pellentesque diam.</p>		
+
+
+					</div>
+				</div></div>
+				<div class='col'><div class='card'>
+						<div class='card-body'>
+						<h3 class='card-title text-center'>Project </h3><hr>
+						<a href='#'><img src='{% static "images/workpage_img1.jpeg" %}' class='card-img' alt='img'></a><hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus. Congue eu consequat ac felis donec et odio pellentesque diam.</p>		
+
+
+					</div>
+				</div></div>
+				<div class='col'><div class='card'>
+						<div class='card-body'>
+						<h3 class='card-title text-center'>Project </h3><hr>
+						<a href='#'><img src='{% static "images/workpage_img1.jpeg" %}' class='card-img' alt='img'></a><hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus. Congue eu consequat ac felis donec et odio pellentesque diam.</p>		
+
+
+					</div>
+				</div></div>
+				<div class='col'><div class='card'>
+						<div class='card-body'>
+						<h3 class='card-title text-center'>Project </h3><hr>
+						<a href='#'><img src='{% static "images/workpage_img1.jpeg" %}' class='card-img' alt='img'></a><hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus. Congue eu consequat ac felis donec et odio pellentesque diam.</p>		
+
+
+					</div>
+				</div></div>
+				<div class='col'><div class='card'>
+						<div class='card-body'>
+						<h3 class='card-title text-center'>Project </h3><hr>
+						<a href='#'><img src='{% static "images/workpage_img1.jpeg" %}' class='card-img' alt='img'></a><hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus. Congue eu consequat ac felis donec et odio pellentesque diam.</p>		
+
+
+					</div>
+				</div></div>
+				<div class='col'><div class='card'>
+						<div class='card-body'>
+						<h3 class='card-title text-center'>Project </h3><hr>
+						<a href='#'><img src='{% static "images/workpage_img1.jpeg" %}' class='card-img' alt='img'></a><hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Id consectetur purus ut faucibus. Congue eu consequat ac felis donec et odio pellentesque diam.</p>		
+
+
+					</div>
+				</div></div>
+			</div>
+
+
+		</div>
+
+	</div>
+	
+</body>
+</html>
+
+{% endblock content %}

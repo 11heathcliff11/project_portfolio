@@ -6,5 +6,12 @@ from . import views
 app_name = 'app_web'
 
 urlpatterns = [
-				path('', views.home, name='homepage')
+				path('', views.home, name='homepage'),
+				path('workpage', views.workpage, name='workpage'),
+				path('aboutpage', views.aboutpage, name='aboutpage'),
+				path('etc', views.etc, name='etc'),
+
+
+				#projects under work
+				path('workpage/project_ecom', views.project_ecom, name='project_ecom'),
 				]
